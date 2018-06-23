@@ -1,9 +1,11 @@
 @import "base/variables";
 @import "base/utils";
 @import "base/typography";
+@import "base/base";
 
 @import "components/button";
 
+@import "sections/sidebar";
 @import "sections/header";
 @import "sections/realtors";
 @import "sections/features";
