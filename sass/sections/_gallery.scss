@@ -9,6 +9,10 @@
 
 	background-color: $color-grey-light-1;
 
+	@media (max-width: $bp-x-small) {
+		grid-gap: .5rem;
+	}
+
 	&__item {
 		&--1 {
 			grid-row: 1 / span 2;
