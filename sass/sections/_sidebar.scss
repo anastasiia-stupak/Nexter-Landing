@@ -7,6 +7,14 @@
 
 	background-color: $color-primary;
 
+	@media (max-width: $bp-large) {
+		grid-row: 1 / 2;
+		grid-column: 1 / -1;
+
+		align-items: center;
+		justify-content: flex-end;
+	}
+
 	&__btn {
 		width: 4.5rem;
 		height: 2px;
@@ -15,6 +23,11 @@
 		border-radius: 3px;
 
 		background-color: $color-white;
+
+		@media (max-width: $bp-large) {
+			margin-top: 0;
+			margin-right: 2rem;
+		}
 
 		&::before,
 		&::after {

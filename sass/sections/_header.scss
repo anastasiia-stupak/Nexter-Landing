@@ -17,8 +17,16 @@
 				rgba($color-secondary, .93)
 			),
 			url('../img/hero.jpeg');
-	background-position: top left;
+	background-position: center;
 	background-size: cover;
+
+	@media (max-width: $bp-medium) {
+		grid-column: 1 / -1;
+	}
+
+	@media (max-width: $bp-small) {
+		padding: 5rem;
+	}
 
 	&__logo {
 		height: 3rem;
