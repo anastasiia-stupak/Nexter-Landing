@@ -3,7 +3,7 @@
 ##### - It's cross-browser (meaning the latest versions of the most popular browsers)
 ##### - It's adaptive
 
-#### You can find it deployed live here:
+#### You can find it deployed live here: https://velgreen-nexter-landing.herokuapp.com/
 
 #### Technologies used:
 - HTML5
